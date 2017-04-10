@@ -6,7 +6,7 @@ files:
   - source: /README.md
     destination: /var/www/
   - source: /scripts
-    destination: /var/www/
+    destination: /var/www/scripts/
 
 hooks:
   BeforeInstall:
