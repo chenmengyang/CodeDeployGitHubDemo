@@ -5,7 +5,7 @@ files:
     destination: /var/www/
   - source: /README.md
     destination: /var/www/
-  - source: /scirpts
+  - source: /scripts
     destination: /var/www/
 
 hooks:
