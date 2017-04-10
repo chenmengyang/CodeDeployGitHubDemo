@@ -5,6 +5,9 @@ files:
     destination: /var/www/
   - source: /README.md
     destination: /var/www/
+  - source: /scirpts
+    destination: /var/www/
+
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
